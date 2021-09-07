@@ -14,9 +14,9 @@ if repeat > 0:
         beat_output = beat_output + beat
         if i < repeat - 1:
             beat_output = beat_output + " "
-            counter = i + 1
+            i = i + 1
         else:
-            counter = i + 1
+            i = i + 1
             print(beat_output) 
 else:
     print("No beat...")
