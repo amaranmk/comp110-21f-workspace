@@ -4,7 +4,7 @@ __author__ = "730484862"
 
 
 # Begin your solution here...
-user_integer: int = int(input("Enter an int:"))
+user_integer: int = int(input("Enter an int: "))
 divisble_by_two: int = user_integer % 2
 divisble_by_seven: int = user_integer % 7
 
