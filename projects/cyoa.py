@@ -23,7 +23,7 @@ player: str = ""
 points: int
 
 
-def main():
+def main() -> None:
     """Houses the greeting, game loop, game functions, and game end."""
     greet()
     global points
@@ -44,7 +44,7 @@ def main():
     print(f"{CONFETII}{CONFETII} You ended with {points} Points! {CONFETII}{CONFETII}")
 
 
-def face_slot():
+def face_slot() -> None:
     """Slot Machine with face emojis- Custom Procedure."""
     global points
     slot1: str
@@ -99,7 +99,7 @@ def animal_slot(point_tracker: int) -> int:
     return point_tracker
 
 
-def greet():
+def greet() -> None:
     """Greets player and sets name."""
     global player
     print(f"{SLOT_MACHINE} Come test your luck at the Spectacular Slot Machine Challenge! {SLOT_MACHINE}")
