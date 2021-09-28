@@ -28,10 +28,10 @@ def is_equal(first_list: list[int], second_list: list[int]) -> bool:
 
 def max(num_list: list[int]) -> int:
     i: int = 0
-    num_max: int = num_list[i]
     if len(num_list) == 0:
         raise ValueError("max() arg is an empty List")
     else:
+        num_max: int = num_list[i]
         while i < len(num_list):
             if num_max == num_list[i]:
                 i += 1
